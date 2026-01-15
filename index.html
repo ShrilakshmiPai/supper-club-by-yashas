@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intimate Supper Club Experience</title>
+    <meta name="description" content="A luxury supper club where stories are cooked, not told. Intimate dining experiences rooted in heritage and crafted with precision">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav__container">
+            <div class="nav__logo">
+                <span class="nav__logo-text">SUPPER CLUB</span>
+            </div>
+            <ul class="nav__menu" id="navMenu">
+                <li class="nav__item"><a href="#hero" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#story" class="nav__link">Philosophy</a></li>
+                <li class="nav__item"><a href="#creations" class="nav__link">The Menu</a></li>
+                <li class="nav__item"><a href="#themes" class="nav__link">Experience</a></li>
+                <li class="nav__item"><a href="#gallery" class="nav__link">Gallery</a></li>
+                <li class="nav__item"><a href="#future" class="nav__link">What's Next</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link nav__link--cta">Reserve</a></li>
+            </ul>
+            <div class="nav__toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero__background">
+            <div class="hero__gradient"></div>
+            <div class="hero__particles" id="particles"></div>
+        </div>
+        <div class="hero__content">
+            <div class="hero__text">
+                <h1 class="hero__title">
+                    <span class="hero__title-line" data-delay="0">Where Stories</span>
+                    <span class="hero__title-line" data-delay="100">Are Cooked</span>
+                    <span class="hero__title-line hero__title-line--accent" data-delay="200">Not Told</span>
+                </h1>
+                <p class="hero__subtitle" data-delay="400">
+                    An intimate supper club experience rooted in heritage, crafted with care, and served with intention
+                </p>
+                <div class="hero__actions" data-delay="600">
+                    <button class="btn btn--primary">
+                        <span>Reserve a Seat</span>
+                        <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                    <button class="btn btn--secondary">
+                        <span>Explore the Menu</span>
+                        <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"/>
+                            <path d="M21 21l-4.35-4.35"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <span class="hero__scroll-text">Scroll to discover</span>
+            <div class="hero__scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story" id="story">
+        <div class="container">
+            <div class="story__grid">
+                <div class="story__image-wrapper">
+                    <div class="story__image" data-parallax="0.3">
+                        <div class="story__image-placeholder">
+                            <svg viewBox="0 0 400 500" fill="none">
+                                <rect width="400" height="500" fill="url(#story-gradient)"/>
+                                <defs>
+                                    <linearGradient id="story-gradient" x1="0" y1="0" x2="400" y2="500">
+                                        <stop offset="0%" stop-color="#1a1a2e"/>
+                                        <stop offset="100%" stop-color="#16213e"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="story__content">
+                    <span class="section__label">The Philosophy</span>
+                    <h2 class="section__title">Food Deserves Time, Attention, and Understanding</h2>
+                    <div class="story__text">
+                        <p>My relationship with food began early, at home, when I was nine years old. I entered the kitchen not with ambition, but with curiosity and love. Watching my mother and grandmother cook—effortlessly, intuitively, and with joy—made the kitchen feel like a natural place to belong.</p>
+                        <p>I chose food because I love it deeply. Home food is closest to my heart. That is where my admiration for cooking was born, and that is the experience I want to pass on to others—the warmth, comfort, and sincerity that exists in a home kitchen.</p>
+                        <p>When I cook, I want the guest to feel taken care of. That feeling matters more to me than applause. Structure, quality, and respect for ingredients are non-negotiable. This is not just a meal—it's a quiet sense of amazement.</p>
+                    </div>
+                    <div class="story__stats">
+                        <div class="stat">
+                            <div class="stat__number">9</div>
+                            <div class="stat__label">Years Old When It Started</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat__number">∞</div>
+                            <div class="stat__label">Stories In Every Dish</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat__number">1</div>
+                            <div class="stat__label">Chef, One Vision</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creations Section -->
+    <section class="creations" id="creations">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__label">The Menu</span>
+                <h2 class="section__title">A Culinary Journey</h2>
+                <p class="section__subtitle">Each course tells a story. Each dish is a memory made present.</p>
+            </div>
+            <div class="creations__grid">
+                <article class="creation-card">
+                    <div class="creation-card__image">
+                        <div class="creation-card__placeholder">
+                            <svg viewBox="0 0 400 300" fill="none">
+                                <rect width="400" height="300" fill="#f5f1eb"/>
+                                <circle cx="200" cy="150" r="60" fill="#a67c52" opacity="0.2"/>
+                                <circle cx="200" cy="150" r="30" fill="#7a8450" opacity="0.3"/>
+                            </svg>
+                        </div>
+                        <div class="creation-card__overlay">
+                            <span class="creation-card__cta">View Dish</span>
+                        </div>
+                    </div>
+                    <div class="creation-card__content">
+                        <span class="creation-card__category">Heritage Classic</span>
+                        <h3 class="creation-card__title">Kori Rotti</h3>
+                        <p class="creation-card__description">A dish learned early on, presented with reverence. Coastal Karnataka heritage on a plate.</p>
+                    </div>
+                </article>
+
+                <article class="creation-card">
+                    <div class="creation-card__image">
+                        <div class="creation-card__placeholder">
+                            <svg viewBox="0 0 400 300" fill="none">
+                                <rect width="400" height="300" fill="#ebe6dd"/>
+                                <rect x="100" y="100" width="200" height="100" fill="#a67c52" opacity="0.25"/>
+                            </svg>
+                        </div>
+                        <div class="creation-card__overlay">
+                            <span class="creation-card__cta">View Dish</span>
+                        </div>
+                    </div>
+                    <div class="creation-card__content">
+                        <span class="creation-card__category">Seasonal</span>
+                        <h3 class="creation-card__title">Market-Inspired Tasting</h3>
+                        <p class="creation-card__description">Five courses celebrating what's fresh, local, and honest. Ingredients speak for themselves.</p>
+                    </div>
+                </article>
+
+                <article class="creation-card">
+                    <div class="creation-card__image">
+                        <div class="creation-card__placeholder">
+                            <svg viewBox="0 0 400 300" fill="none">
+                                <rect width="400" height="300" fill="#f5f1eb"/>
+                                <polygon points="200,100 250,200 150,200" fill="#7a8450" opacity="0.25"/>
+                            </svg>
+                        </div>
+                        <div class="creation-card__overlay">
+                            <span class="creation-card__cta">View Dish</span>
+                        </div>
+                    </div>
+                    <div class="creation-card__content">
+                        <span class="creation-card__category">Home Kitchen</span>
+                        <h3 class="creation-card__title">Grandmother's Recipe</h3>
+                        <p class="creation-card__description">Traditional flavors passed down with patience, love, and everyday honesty.</p>
+                    </div>
+                </article>
+
+                <article class="creation-card">
+                    <div class="creation-card__image">
+                        <div class="creation-card__placeholder">
+                            <svg viewBox="0 0 400 300" fill="none">
+                                <rect width="400" height="300" fill="#ebe6dd"/>
+                                <circle cx="200" cy="150" r="80" fill="#a67c52" opacity="0.15"/>
+                                <circle cx="200" cy="150" r="50" fill="#a67c52" opacity="0.25"/>
+                            </svg>
+                        </div>
+                        <div class="creation-card__overlay">
+                            <span class="creation-card__cta">View Dish</span>
+                        </div>
+                    </div>
+                    <div class="creation-card__content">
+                        <span class="creation-card__category">Slow-Cooked</span>
+                        <h3 class="creation-card__title">Braised Lamb Shank</h3>
+                        <p class="creation-card__description">Six hours of patience. One moment of quiet amazement. Quality over shortcuts.</p>
+                    </div>
+                </article>
+
+                <article class="creation-card">
+                    <div class="creation-card__image">
+                        <div class="creation-card__placeholder">
+                            <svg viewBox="0 0 400 300" fill="none">
+                                <rect width="400" height="300" fill="#f5f1eb"/>
+                                <rect x="120" y="120" width="60" height="60" fill="#7a8450" opacity="0.2"/>
+                                <rect x="220" y="120" width="60" height="60" fill="#a67c52" opacity="0.2"/>
+                            </svg>
+                        </div>
+                        <div class="creation-card__overlay">
+                            <span class="creation-card__cta">View Dish</span>
+                        </div>
+                    </div>
+                    <div class="creation-card__content">
+                        <span class="creation-card__category">Intimate Dining</span>
+                        <h3 class="creation-card__title">Chef's Table Experience</h3>
+                        <p class="creation-card__description">Limited seats. Curated evenings. Every detail considered, every guest taken care of.</p>
+                    </div>
+                </article>
+
+                <article class="creation-card">
+                    <div class="creation-card__image">
+                        <div class="creation-card__placeholder">
+                            <svg viewBox="0 0 400 300" fill="none">
+                                <rect width="400" height="300" fill="#ebe6dd"/>
+                                <path d="M100,150 Q200,100 300,150" stroke="#a67c52" stroke-width="3" fill="none" opacity="0.3"/>
+                                <path d="M100,170 Q200,120 300,170" stroke="#7a8450" stroke-width="3" fill="none" opacity="0.3"/>
+                            </svg>
+                        </div>
+                        <div class="creation-card__overlay">
+                            <span class="creation-card__cta">View Dish</span>
+                        </div>
+                    </div>
+                    <div class="creation-card__content">
+                        <span class="creation-card__category">Comfort Food</span>
+                        <h3 class="creation-card__title">Coastal Curry & Rice</h3>
+                        <p class="creation-card__description">The warmth of home. The sincerity of a well-cooked meal. Simple, honest, unforgettable.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Themes Section -->
+    <section class="themes" id="themes">
+        <div class="container">
+            <div class="section__header section__header--center">
+                <span class="section__label">The Experience</span>
+                <h2 class="section__title">What Makes Us Different</h2>
+                <p class="section__subtitle">The principles that guide every dish, every evening, every moment</p>
+            </div>
+            <div class="themes__grid">
+                <div class="theme-card">
+                    <div class="theme-card__icon">
+                        <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="15" y="15" width="30" height="30" rx="2"/>
+                            <path d="M20 30h20M30 20v20"/>
+                        </svg>
+                    </div>
+                    <h3 class="theme-card__title">Home Kitchen Heart</h3>
+                    <p class="theme-card__description">Every dish begins where I began—at home. The warmth, comfort, and sincerity of a mother's kitchen, brought to your table.</p>
+                </div>
+
+                <div class="theme-card">
+                    <div class="theme-card__icon">
+                        <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="30" cy="30" r="20"/>
+                            <circle cx="30" cy="30" r="12"/>
+                            <circle cx="30" cy="30" r="4" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="theme-card__title">Structure & Precision</h3>
+                    <p class="theme-card__description">Every element has its purpose. Every detail matters. Structure allows me to respect my ideas and execute with confidence.</p>
+                </div>
+
+                <div class="theme-card">
+                    <div class="theme-card__icon">
+                        <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M15 45L30 15L45 45"/>
+                            <path d="M20 35h20"/>
+                        </svg>
+                    </div>
+                    <h3 class="theme-card__title">Quality Is Non-Negotiable</h3>
+                    <p class="theme-card__description">Compromising on quality feels like compromising on care. No shortcuts. No week-old preparations. Only fresh, honest food.</p>
+                </div>
+
+                <div class="theme-card">
+                    <div class="theme-card__icon">
+                        <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M10 30C10 18 18 10 30 10C42 10 50 18 50 30"/>
+                            <circle cx="30" cy="35" r="8"/>
+                        </svg>
+                    </div>
+                    <h3 class="theme-card__title">Intention Over Convenience</h3>
+                    <p class="theme-card__description">Food should be cooked with intention, not convenience. I stand against frozen, forgotten, thoughtless meals. Every dish is made to order.</p>
+                </div>
+
+                <div class="theme-card">
+                    <div class="theme-card__icon">
+                        <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="12" y="20" width="36" height="20" rx="2"/>
+                            <path d="M20 30h20"/>
+                            <circle cx="30" cy="15" r="3" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="theme-card__title">Intimate & Unhurried</h3>
+                    <p class="theme-card__description">No rushed, crowded service. Food deserves time and attention. You'll feel taken care of—that's what matters most.</p>
+                </div>
+
+                <div class="theme-card">
+                    <div class="theme-card__icon">
+                        <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M15 25C15 25 20 15 30 15C40 15 45 25 45 25"/>
+                            <path d="M15 25L15 40C15 40 20 45 30 45C40 45 45 40 45 40L45 25"/>
+                        </svg>
+                    </div>
+                    <h3 class="theme-card__title">Heritage Meets Innovation</h3>
+                    <p class="theme-card__description">Rooted in tradition, open to creativity. Innovation only works when the foundation is strong. My roots guide everything I make.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container-fluid">
+            <div class="section__header section__header--center">
+                <span class="section__label">Visual Stories</span>
+                <h2 class="section__title">Plated Moments</h2>
+            </div>
+            <div class="gallery__masonry">
+                <div class="gallery__item gallery__item--tall">
+                    <div class="gallery__image">
+                        <svg viewBox="0 0 400 600" fill="none">
+                            <rect width="400" height="600" fill="#1a1a2e"/>
+                            <circle cx="200" cy="300" r="100" fill="#c9a961" opacity="0.2"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <div class="gallery__image">
+                        <svg viewBox="0 0 400 400" fill="none">
+                            <rect width="400" height="400" fill="#16213e"/>
+                            <rect x="100" y="100" width="200" height="200" fill="#e94560" opacity="0.2"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <div class="gallery__image">
+                        <svg viewBox="0 0 400 400" fill="none">
+                            <rect width="400" height="400" fill="#0f3460"/>
+                            <polygon points="200,100 300,350 100,350" fill="#00d4ff" opacity="0.2"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery__item gallery__item--wide">
+                    <div class="gallery__image">
+                        <svg viewBox="0 0 800 400" fill="none">
+                            <rect width="800" height="400" fill="#1a1a2e"/>
+                            <path d="M0,200 Q200,100 400,200 T800,200" stroke="#c9a961" stroke-width="3" fill="none"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <div class="gallery__image">
+                        <svg viewBox="0 0 400 400" fill="none">
+                            <rect width="400" height="400" fill="#16213e"/>
+                            <circle cx="200" cy="200" r="120" stroke="#c9a961" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery__item gallery__item--tall">
+                    <div class="gallery__image">
+                        <svg viewBox="0 0 400 600" fill="none">
+                            <rect width="400" height="600" fill="#0f3460"/>
+                            <rect x="150" y="200" width="100" height="200" fill="#e94560" opacity="0.2"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Section -->
+    <section class="future" id="future">
+        <div class="container">
+            <div class="future__content">
+                <div class="section__header section__header--center">
+                    <span class="section__label">What's Cooking Next</span>
+                    <h2 class="section__title">This Is Just The Beginning</h2>
+                    <p class="section__subtitle">As long as there are people who want honest, authentic food, I will keep cooking.</p>
+                </div>
+                <div class="future__grid">
+                    <div class="future-card">
+                        <div class="future-card__number">01</div>
+                        <h3 class="future-card__title">Pop-Up Dinners</h3>
+                        <p class="future-card__description">Intimate dining experiences in unexpected places. Limited seats, seasonal menus, unforgettable evenings.</p>
+                    </div>
+                    <div class="future-card">
+                        <div class="future-card__number">02</div>
+                        <h3 class="future-card__title">Guest Chef Collaborations</h3>
+                        <p class="future-card__description">Partnering with fellow chefs who share the same reverence for honest, quality-driven food.</p>
+                    </div>
+                    <div class="future-card">
+                        <div class="future-card__number">03</div>
+                        <h3 class="future-card__title">Wine & Beverage Pairings</h3>
+                        <p class="future-card__description">Curated pairings that complement each course. Thoughtful selections that enhance the entire experience.</p>
+                    </div>
+                    <div class="future-card">
+                        <div class="future-card__number">04</div>
+                        <h3 class="future-card__title">Culinary Workshops</h3>
+                        <p class="future-card__description">Teaching the techniques, philosophy, and patience behind home cooking. Passing on what I learned at nine years old.</p>
+                    </div>
+                    <div class="future-card">
+                        <div class="future-card__number">05</div>
+                        <h3 class="future-card__title">Private Events</h3>
+                        <p class="future-card__description">Host your own curated evening. Personalized menus designed around your story, your guests, your moment.</p>
+                    </div>
+                    <div class="future-card">
+                        <div class="future-card__number">06</div>
+                        <h3 class="future-card__title">Recipe Journal</h3>
+                        <p class="future-card__description">Sharing the stories behind each dish. A collection of heritage recipes, techniques, and memories made tangible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact__wrapper">
+                <div class="contact__info">
+                    <span class="section__label">Reserve Your Seat</span>
+                    <h2 class="section__title">Request an Invitation</h2>
+                    <p class="contact__text">Limited seating. Curated evenings. Each meal is an invitation to experience food the way it was meant to be—with care, time, and intention.</p>
+                    <div class="contact__social">
+                        <a href="#" class="contact__social-link" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="contact__social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="contact__social-link" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="contact__social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact__form" id="contactForm">
+                    <div class="form__group">
+                        <input type="text" class="form__input" placeholder="Your Name" required>
+                    </div>
+                    <div class="form__group">
+                        <input type="email" class="form__input" placeholder="Your Email" required>
+                    </div>
+                    <div class="form__group">
+                        <select class="form__input" required>
+                            <option value="">Purpose of Reservation</option>
+                            <option value="dinner">Supper Club Reservation</option>
+                            <option value="private">Private Dining Event</option>
+                            <option value="collaboration">Chef Collaboration</option>
+                            <option value="workshop">Culinary Workshop</option>
+                            <option value="other">Other Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form__group">
+                        <textarea class="form__input form__input--textarea" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full">
+                        <span>Send Message</span>
+                        <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"/>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3 class="footer__logo">SUPPER CLUB</h3>
+                    <p class="footer__tagline">Where stories are cooked, not told</p>
+                </div>
+                <div class="footer__legal">
+                    <p>&copy; 2026 Intimate Supper Club. All rights reserved.</p>
+                    <p>Cooked with care. Served with intention.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
